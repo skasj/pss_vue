@@ -1,0 +1,20 @@
+
+.header {
+  background: $gray;line-height: 2;color: $black;
+}
+
+.img_test {
+  text-align: center;background: $cf0;padding: 10px;
+  img {width: 100px;display: block;margin: 0 auto 5px;}
+  &:after {
+    content: "我爱刘亦菲"; color: $red;
+  }
+}
+
+.module_list{
+
+}
+
+.copy {
+  text-align: center;color: $c99;line-height: 4;
+}

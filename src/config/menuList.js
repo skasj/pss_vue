@@ -1,43 +1,49 @@
 export const MENULIST = [
   {
-    menuName: '客户管理',
+    menuName: '药材管理',
     menuIcon: 'fz-ad-icon-test',
     menuSubLink: [
       {
-        menuName: '广告主',
+        menuName: '药材库存',
         menuUrl: '/customer/adhost'
       },
       {
         menuName: '渠道',
         menuUrl: '/customer/channel'
+      },
+      {
+        menuName: '历史订单',
+        menuUrl: '/customer/channel'
+      },
+      {
+        menuName: '下单',
+        menuUrl: '/customer/channel'
       }
     ]
   },
   {
-    menuName: '广告管理',
+    menuName: '药品管理',
     menuIcon: 'fz-ad-guanggao',
     menuSubLink: [
       {
-        menuName: '广告新增',
+        menuName: '药品清单',
         menuUrl: '/ad/add'
       },
       {
-        menuName: '广告审核',
-        menuUrl: '/ad/check'
-      }
-    ]
-  },
-  {
-    menuName: '投放管理',
-    menuIcon: 'fz-ad-toufang',
-    menuSubLink: [
-      {
-        menuName: '广告位',
-        menuUrl: '/puton/area'
+        menuName: '生产记录',
+        menuUrl: '/ad/add'
       },
       {
-        menuName: '广告规格',
-        menuUrl: '/puton/regular'
+        menuName: '出售渠道',
+        menuUrl: '/ad/check'
+      },
+      {
+        menuName: '出售记录',
+        menuUrl: '/ad/check'
+      },
+      {
+        menuName: ' 未完成订单',
+        menuUrl: '/ad/check'
       }
     ]
   },
@@ -46,17 +52,17 @@ export const MENULIST = [
     menuIcon: 'fz-ad-statistics',
     menuSubLink: [
       {
-        menuName: '广告主',
+        menuName: '进货',
         menuUrl: '/status/adhost'
       },
       {
-        menuName: '渠道',
+        menuName: '销售',
         menuUrl: '/status/channel'
       }
     ]
   },
   {
-    menuName: '管理者',
+    menuName: '客户管理',
     menuIcon: 'fz-ad-guanli',
     menuUrl: '/manager'
   },
@@ -65,4 +71,4 @@ export const MENULIST = [
     menuIcon: 'fz-ad-rizhi',
     menuUrl: '/logger'
   }
-];
+]

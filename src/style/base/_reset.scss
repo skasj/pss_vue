@@ -6,14 +6,10 @@ $BaseC: $c55;
 
 @charset "UTF-8";
 
-body, ul, ol, dl, dd, h1, h2, h4, h5, h6, pre, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td, menu {
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button, textarea, p, blockquote, table, th, td, menu {
   margin: 0;
   padding: 0;
   resize: none;
-}
-
-h3 {
-  font-size: 28px;
 }
 
 table {
